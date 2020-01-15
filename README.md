@@ -19,10 +19,10 @@ The Wunderlist:registered: system gets shutdown and most of the people will migr
 
 * Create an empty folder somewhere on Your system. Enter the location in line 15 of the script c:\Users\<Username>\Wunderlist2Joplin\Wunderlist2Joplin.py.
 
-* Execute the script by opening a command window and typing
+* Execute the script by opening Anaconda Prompt or similar pythin execution environment and type
   c: <Ret>
   cd  c:\Users\<Username>\Wunderlist2Joplin<Ret>
-  python Wunderlist2Joplin<Ret>
+  python Wunderlist2Joplin.py<Ret>
 
 * Open Joplin and choose File->Import->Raw Joplin Export Folder
   Wait for the import to finish.
