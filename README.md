@@ -1,7 +1,7 @@
 # Wunderlist2Joplin
- A python script to prepare the Wunderlist data for import into Joplin
+ A python script to prepare the Wunderlist data for import into [Joplin](https://joplinapp.org)
 
-The Wunderlist:registered: system gets shutdown and most of the people will migrate to Microsoft:registered:'s ToDo:tm:. That is O.K., but some of You might consider this as a point in time where You want to migrate the data to Your own cloud system. Since Joplin provides (at least for me) all the relevant features I came to the conclusion to go this way. The only problem was that I didn't want to loose all the data. Hence I investigated how to import the data and didn't find much. Hence I came up with the following (non-complete) solution:
+The Wunderlist:registered: system gets shutdown and most of the people will migrate to Microsoft:registered:'s To-Do:tm:. That is O.K., but some of You might consider this as a point in time where You want to migrate the data to Your own cloud system. Since Joplin provides (at least for me) all the relevant features I came to the conclusion to go this way. The only problem was that I didn't want to loose all the data. Hence I investigated how to import the data and didn't find much. Hence I came up with the following (non-complete) solution:
 
 * Get Yourself (unless You have it already) python3 and install it. Example:
 
