@@ -12,7 +12,7 @@ import dateutil.parser as dp
 
 importFile=r'C:\Users\eckar\org2\Wunderlist-20200111\Tasks.json'
 wunderlistImportName='Wunderlist Import'
-targetDir=r'C:\Users\eckar\org8'
+targetDir=r'C:\Users\eckar\org10'
 
 
 
@@ -98,8 +98,8 @@ class Task:
         buffer.append("source_application: WunderlistToJoplin")
         buffer.append("application_data: ")
         buffer.append("order: 0")
-        buffer.append("user_created_time: ")
-        buffer.append("user_updated_time: ")
+        buffer.append("user_created_time: "+getNullCheckValue(self.jsonData,'createdAt'))
+        buffer.append("user_updated_time: "+getNullCheckValue(self.jsonData,'createdAt'))
         buffer.append("encryption_applied: 0")
         buffer.append("markup_language: 1")
         buffer.append("type_: 1")
